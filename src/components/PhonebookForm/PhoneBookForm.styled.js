@@ -7,7 +7,8 @@ export const StyledForm = styled(Form)`
   gap: 10px;
   width: 400px;
   padding: 20px;
-  margin-bottom: 50px;
+  border: 1px solid black;
+  border-radius: 7px;
 `;
 
 export const ErrorMsg = styled(ErrorMessage)`
@@ -36,19 +37,5 @@ export const StyledField = styled(Field)`
 `;
 
 export const AddContactBtn = styled.button`
-margin: 0 auto;
-margin-top: 32px;
-display: block;
-width: 100px;
-padding: 0px;
-height: 25px;
-color: #black;
-border: 1px solid #000000;
-border-radius: 5px;
-cursor: pointer;
-transition: all 0.25s linear 0s;
-&:hover,
-&:focus {
-  border: 1px solid ##FFFFFF; background: #7CFC00;
-  transform: scale(1.1);
+  margin-top: 32px;
 `;

@@ -21,24 +21,18 @@ export const ContactInform = styled.div`
 `;
 
 export const ContactBtn = styled.button`
-margin-top: 10px;
-width: 100px;
-padding: 0px;
-height: 25px;
-color: #black;
-border: 1px solid #000000;
-border-radius: 5px;
-cursor: pointer;
-transition: all 0.25s linear 0s;
-&:hover,
-&:focus {
-  border: 1px solid #white; background: #ff0000;
-  transform: scale(1.1);
+  background-color: #dae1e6;
+  width: 50px;
+  height: 30px;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 2px;
+  cursor: pointer;
 `;
 
 export const BtnWrapper = styled.div`
   :hover {
-    background-color: #black;
+    background-color: #8d9093;
     color: white;
     border: none;
   }
