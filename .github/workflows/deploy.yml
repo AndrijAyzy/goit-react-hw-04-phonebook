@@ -32,8 +32,3 @@ jobs:
         run: |
           git remote rm origin
           git remote add origin https://github.com/AndrijAyzy/goit-react-hw-04-phonebook.git
-
-      - name: Налаштування Git
-        run: |
-          git config --global user.name 'AndrijAyzy'
-          git config --global user.email 'rahnandrey1712@gmail.com'
